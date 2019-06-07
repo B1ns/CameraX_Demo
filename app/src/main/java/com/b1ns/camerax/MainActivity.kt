@@ -67,7 +67,6 @@ class MainActivity : AppCompatActivity() {
         }
         //====================== Image Preview Config code End==========================
 
-
         //====================== Image CAPTURE Config code Start==========================
         val imageCaptureConfig = ImageCaptureConfig.Builder().apply {
             setTargetAspectRatio(Rational(1, 1))
@@ -96,7 +95,6 @@ class MainActivity : AppCompatActivity() {
             })
         }
         //====================== Image CAPTURE Config code End==========================
-
 
         //====================== Image Analysis Config code Start==========================
 
@@ -227,5 +225,4 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
 }
